@@ -7,7 +7,7 @@
     "start": "electron src/index.js",
     "final": "electron final/index.js",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder -mwl"
+    "dist": "electron-builder"
   },
   "build": {
     "appId": "io.jseverywhere.notedly",
@@ -24,7 +24,7 @@
   "homepage": "https://jseverywhere.io",
   "devDependencies": {
     "electron": "6.0.0",
-    "electron-builder": "21.2.0",
+    "electron-builder": "^21.2.0",
     "eslint": "6.1.0",
     "eslint-config-prettier": "6.0.0",
     "eslint-plugin-prettier": "3.1.0",
