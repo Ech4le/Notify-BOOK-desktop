@@ -7,11 +7,14 @@
     "start": "electron src/index.js",
     "final": "electron final/index.js",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder -mwl"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/javascripteverywhere/desktop.git"
+  "build": {
+    "appId": "io.jseverywhere.notedly",
+    "productName": "Notedly",
+    "directories": {
+      "buildResources": "resources"
+    }
   },
   "author": "Adam Scott <adam@jseverywhere.io>",
   "license": "MIT",

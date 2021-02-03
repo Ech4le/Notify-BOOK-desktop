@@ -32,7 +32,7 @@ function createWindow() {
             img-src 'self' https://www.gravatar.com;
             style-src 'self' 'unsafe-inline';
             font-src 'self';
-            connect-src 'self' $(config.PRODUCTION_API_URL);
+            connect-src 'self' ${config.PRODUCTION_API_URL};
             base-uri 'none';
             form-action 'none';
             frame-ancestors 'none';
